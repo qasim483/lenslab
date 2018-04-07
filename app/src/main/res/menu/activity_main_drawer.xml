@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="View Live Adventures" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Submit Video &amp; Earn" />
+        <item
+            android:id="@+id/videos"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Users Submitted Videos" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Need Help?" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact US" />
+            <item
+                android:id="@+id/privacy_policy"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/terms"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Terms &amp; Conditions" />
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/clear_data"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Clear Data" />
+            <item
+                android:icon="@drawable/ic_menu_send"
+                android:title="Version 1.0.1" />
+        </menu>
+    </item>
+
+</menu>
